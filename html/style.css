@@ -1,0 +1,69 @@
+body {
+    color: #aaa;
+    background-color: #202020;
+    font-family: Consolas, monospace;
+    font-size: 20px;
+}
+
+a:focus {
+    outline: none;
+}
+
+button {
+    padding: 5px;
+    margin: 5px 0 5px 0;
+    background-color: #555;
+    color: black;
+    border-radius: 7px;
+    font-size: 18px;
+    cursor: pointer;
+    border-left: 1px solid #999;
+    border-top: 1px solid #999;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+button:disabled {
+    color: #333;
+    border-left: 1px solid #999;
+    border-top: 1px solid #999;
+    border-right: 1px solid #333;
+    border-bottom: 1px solid #333;
+    cursor: auto;
+}
+
+button:enabled:active {
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;
+}
+
+button:focus {
+    outline: none;
+}
+
+.actions {
+    height: 100px;
+    position:absolute; /*it can be fixed too*/
+    left:0; right:0;
+    top:0; bottom:0;
+    margin:auto;
+}
+
+.hdr {
+    color: black;
+    background-color: #333;
+    border: 1px solid black;
+    padding: 5px 20px 5px 20px;
+}
+
+.cool {
+    border-radius: 7px;
+    border: 1px solid black;
+    color: #ccc;
+    background-color: #333;
+    width: 300px;
+    vertical-align: top;
+    padding: 10px;
+}
